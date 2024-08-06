@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'rtwcreation.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'api.anluxuries.com',
+      },
     ],
   },
 };
