@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ReduxProvider from "@/components/Provider"; // Import the custom provider
+import ClientWrapper from "@/components/Clientwrapper/ClientWrapper"; // Import the ClientWrapper
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <link rel="preconnect" href="https://brightspotcdn.com" />
+      <link rel="preconnect" href="https://sothebys-com.brightspotcdn.com" />
+      <body className={inter.className}>
+        <ReduxProvider>
+          <Toaster />
+          <ClientWrapper>{children}</ClientWrapper>
+        </ReduxProvider>
+      </body>
     </html>
   );
 }
