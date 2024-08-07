@@ -18,7 +18,7 @@ const Page = () => {
             <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4">
                 <div className="bg-white shadow-lg rounded-lg p-6 md:p-12 w-full max-w-2xl text-center">
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
-                        {username ? `WELCOME ${username}` : 'WELCOME'}
+                        {username ? `Welcome ${username}` : 'WELCOME'}
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600">We're glad to have you here.</p>
                 </div>

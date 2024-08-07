@@ -87,17 +87,17 @@ const Navbar = () => {
           </div>
 
           <div className={`fixed top-0 left-0 w-full h-full bg-white dark:bg-gray-900 transition-transform duration-300 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:relative md:translate-x-0 md:flex md:items-center md:w-auto`}>
-            <div className="md:flex-grow md:flex md:justify-center space-y-4 md:space-y-0 md:space-x-4 p-5 md:p-0">
-              <Link href="/" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
+            <div className="hover md:flex-grow md:flex md:justify-center space-y-4 md:space-y-0 md:space-x-4 p-5 md:p-0">
+              <Link href="/" className="text-gray-900 font-semibold dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
                 Home
               </Link>
-              <Link href="/bags" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
+              <Link href="/bags" className="text-gray-900 font-semibold dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
                 Bags
               </Link>
-              <Link href="/glasses" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
+              <Link href="/glasses" className="text-gray-900 font-semibold dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
                 Glasses
               </Link>
-              <Link href="/watches" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
+              <Link href="/watches" className="text-gray-900 font-semibold dark:text-white hover:text-gray-600 dark:hover:text-gray-400 block md:inline-block" onClick={handleIconClick}>
                 Watches
               </Link>
             </div>

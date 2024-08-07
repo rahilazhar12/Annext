@@ -57,7 +57,7 @@ const Home = () => {
           {/* Bags */}
 
           <div className="container mx-auto p-3 md:mt-2">
-            <h2 className="md:text-4xl font-extrabold text-center bg-gray-100 w-52 md:w-80 mx-auto text-gray-900 p-3">
+            <h2 className="md:text-2xl font-bold text-center bg-gray-100 w-52 md:w-80 mx-auto text-gray-900 p-1">
               Crossbody Bags
             </h2>
             <div className="flex flex-wrap ">
@@ -75,10 +75,10 @@ const Home = () => {
           </div>
 
           {/* Glasses */}
-          <div className="bg-gray-300">
-            <div className="bg-gray-100 p-8 rounded-tl-[150px] rounded-br-[150px]">
+          
+            <div className="bg-gray-100 p-8">
               <div className="container mx-auto">
-                <h2 className="md:text-4xl font-extrabold text-center bg-gray-300 w-52 md:w-80 mx-auto mb-12 text-gray-900 p-3">
+                <h2 className="md:text-2xl font-bold text-center bg-gray-300 w-52 md:w-80 mx-auto mb-12 text-gray-900 p-1">
                   Glasses
                 </h2>
                 <div className="flex flex-wrap -mx-4">
@@ -95,12 +95,12 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
 
 
           {/* Watches */}
           <div className="container mx-auto p-3 md:mt-2">
-            <h2 className="md:text-4xl font-extrabold text-center bg-gray-100 w-52 md:w-80 mx-auto text-gray-900 p-3">
+            <h2 className="md:text-2xl font-bold text-center bg-gray-100 w-52 md:w-80 mx-auto text-gray-900 p-1">
               Watches
             </h2>
             <div className="flex flex-wrap ">

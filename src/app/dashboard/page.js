@@ -58,9 +58,12 @@ function DashboardLayout({ children }) {
                                 <Link href="/dashboard/addwatches" className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary">
                                     <LineChart className="h-4 w-4" /> Add-Watches
                                 </Link>
+                                <Link href="/dashboard/orders" className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary">
+                                    <Users className="h-4 w-4" /> Orders
+                                </Link>
                             </nav>
                         </div>
-                       
+
                     </div>
                 </div>
                 <div className="flex flex-col">

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 export default function ClientWrapper({ children }) {
     const pathname = usePathname();
@@ -18,6 +19,8 @@ export default function ClientWrapper({ children }) {
         <>
             {!isDashboardRoute && <Navbar />}
             {children}
+            {!isDashboardRoute && <Footer />}
+
         </>
     );
 }
