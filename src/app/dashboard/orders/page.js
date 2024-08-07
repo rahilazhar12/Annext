@@ -62,12 +62,12 @@ const SummaryPage = () => {
                                                 <td className="py-4 px-6 border-r">
                                                     {order.cartItems.map(item => (
                                                         <div key={item._id} className="flex items-center mb-4">
-                                                            <Image 
-                                                                src={`${process.env.NEXT_PUBLIC_API_URL}/${item.mainImage}`} 
-                                                                alt={item.name} 
-                                                                className="w-16 h-16 mr-4 object-scale-down" 
-                                                                width={100} 
-                                                                height={100} 
+                                                            <Image
+                                                                src={`${process.env.NEXT_PUBLIC_API_URL}/${item.mainImage}`}
+                                                                alt={item.name}
+                                                                className="w-16 h-16 mr-4 object-scale-down"
+                                                                width={100}
+                                                                height={100}
                                                             />
                                                             <div>
                                                                 <p>Name: {item.name}</p>
@@ -78,7 +78,7 @@ const SummaryPage = () => {
                                                         </div>
                                                     ))}
                                                 </td>
-                                                <td className="py-4 px-6">Rs {order.totalAmount + 300}</td>
+                                                <td className="py-4 px-6">Rs {order.totalAmount}</td>
                                             </tr>
                                         ))}
                                     </tbody>
