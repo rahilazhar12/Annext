@@ -47,11 +47,11 @@ const SummaryPage = () => {
                                         {orders.map((order, index) => (
                                             <tr key={order._id} className="border-b">
                                                 <td className="py-4 px-6 border-r">{index + 1}</td>
-                                                <td className="py-4 px-6 border-r">{order._id}</td>
+                                                <td className="py-4 px-2 border-r">{order._id}</td>
                                                 <td className="py-4 px-6 border-r">{new Date(order.createdAt).toLocaleDateString()}</td>
                                                 <td className="py-4 px-6 border-r">
                                                     <p>Name: {order.user.name}</p>
-                                                    <p>Email: {order.user.email}</p>
+                                                    <p>Email:{order.user.email}</p>
                                                     <p>Phone: {order.user.phone}</p>
                                                 </td>
                                                 <td className="py-4 px-6 border-r">
@@ -72,8 +72,7 @@ const SummaryPage = () => {
                                                             <div>
                                                                 <p>Name: {item.name}</p>
                                                                 <p>Qty: {item.quantity}</p>
-                                                                <p>Price: Rs {item.price}</p>
-                                                                <p>Total Price: Rs {item.totalPrice}</p>
+                                                                <p>Price: Rs {item.totalPrice}</p>
                                                             </div>
                                                         </div>
                                                     ))}
