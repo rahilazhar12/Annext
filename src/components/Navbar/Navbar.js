@@ -68,14 +68,14 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <div className="bg-gray-200 w-full h-10 flex justify-center items-center text-xs text-black font-semibold">
+      <div className="bg-gray-200 w-full h-10 flex justify-center items-center text-xs text-black font-semibold">
         <p>FREE SHIPPING over Rs.3499</p>
       </div>
       <nav className="bg-white dark:bg-gray-900 w-full border-b border-gray-200 dark:border-gray-600 sticky top-0 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
           <div className="flex items-center space-x-4">
             <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-             LOGO
+              LOGO
             </Link>
           </div>
 
@@ -133,7 +133,7 @@ const Navbar = () => {
         </div>
 
         <CartModal isOpen={isModalOpen} closeModal={closeModal} />
-      </nav> */}
+      </nav>
     </>
   );
 };
